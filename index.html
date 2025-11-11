@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba de Videos PS3</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #0ff;
+    }
+    video, object, embed {
+      display: block;
+      margin: 20px auto;
+      border: 2px solid #0ff;
+      max-width: 90%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Prueba de Compatibilidad de Video (PS3)</h1>
+
+  <h2>1️⃣ Método HTML5 &lt;video&gt; (moderno)</h2>
+  <video controls autoplay width="640" height="360">
+    <source src="video.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento &lt;video&gt;.
+  </video>
+
+  <h2>2️⃣ Método antiguo &lt;object&gt; / &lt;embed&gt; (MP4)</h2>
+  <object data="video.mp4" type="video/mp4" width="640" height="360">
+    <embed src="video.mp4" type="video/mp4" width="640" height="360">
+      Tu navegador no puede mostrar este video.
+    </embed>
+  </object>
+
+  <h2>3️⃣ Método antiguo &lt;object&gt; / &lt;embed&gt; (FLV)</h2>
+  <object data="video.flv" type="video/x-flv" width="640" height="360">
+    <embed src="video.flv" type="video/x-flv" width="640" height="360">
+      Tu navegador no puede mostrar este video.
+    </embed>
+  </object>
+
+  <p style="margin-top:40px; font-size:14px; color:#aaa;">
+    Coloca los archivos <b>video.mp4</b> y <b>video.flv</b> en la misma carpeta que este HTML.
+  </p>
+</body>
+</html>
