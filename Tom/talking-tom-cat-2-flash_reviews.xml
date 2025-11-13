@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews itemIdentifier="talking-tom-cat-2-flash">
+  <review>
+    <reviewtitle>Very well-done</reviewtitle>
+    <reviewbody>I really liked it, but it is laggy for me</reviewbody>
+    <stars>4</stars>
+    <reviewer>BlueWorld (she/her/hers/they/them/theirs)</reviewer>
+    <reviewdate>2024-09-17 00:51:40</reviewdate>
+    <createdate>2024-09-17 00:51:40</createdate>
+    <reviewer_itemname>@one_legged_horse</reviewer_itemname>
+  </review>
+  <review>
+    <reviewtitle>Good</reviewtitle>
+    <reviewbody>Good but it's very laggy</reviewbody>
+    <stars>5</stars>
+    <reviewer>DehStupidMox</reviewer>
+    <reviewdate>2025-10-04 13:49:46</reviewdate>
+    <createdate>2025-10-04 13:49:46</createdate>
+    <reviewer_itemname>@mauricio_ht</reviewer_itemname>
+  </review>
+  <info>
+    <num_reviews>2</num_reviews>
+    <avg_rating>4.50</avg_rating>
+  </info>
+</reviews>
